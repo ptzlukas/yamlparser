@@ -1,0 +1,404 @@
+etagen:
+    - nummer: -1
+        content:
+        - type: question
+            frage: Wie öffnet man die Schranke?
+                allanswers:
+                - answer: Badge
+                    trueanswer: True
+                - answer: Klingel
+                    trueanswer: True
+                - answer: Iris Scan
+                    trueanswer: False
+                - answer: Seil
+                    trueanswer: False
+            hash: Schranke-1
+        
+        - type: question
+            frage: Welche Farbe hat die Luftpumpe im Fahrradraum?
+                allanswers:
+                - answer: Lila
+                    trueanswer: False
+                - answer: Grün
+                    trueanswer: False
+                - answer: Blau
+                    trueanswer: False
+                - answer: Schwarz
+                    trueanswer: True
+            hash: Lufpumpe-1
+        
+        - type: question
+            frage: Wie aktiviert man die E-Ladesäule für private Fahrzeuge?
+                allanswers:
+                - answer: gar nicht
+                    trueanswer: True
+                - answer: EC-Karte
+                    trueanswer: False
+                - answer: Am Empfang aktivieren lassen
+                    trueanswer: False
+                - answer: Sodexo
+                    trueanswer: False
+            hash: Ladesäule-1
+        
+        - type: information
+            headline: Schranke
+            text: Die Schranke stellt den Eingang zur Tiefgarage dar. Hier könnt ihr zu jeder Uhrzeit euren Badge an das Terminal halten und die Schranke öffnet sich. Nachts wird die Tiefgarage zusätzlich durch ein automatisches Gitter gesichert, dieses wird automatisch hochgefahren, wenn ihr in die Tiefgarage einfahrt. Auf einer der beiden Etagen könnt ihr dann nach erneutem prüfen eures Badges am Terminal euer Auto abstellen. Hierbei müsst ihr nur beachten, dass die Parkplätze nicht als Besucher o.ä. gekennzeichnet sind.
+            hash: Schranke-2
+        
+        - type: information
+            headline: Fahrradraum
+            text: In der Tiefgarage könnt ihr auch eure Fahrräder abstellen. Dafür gibt es extra einen Fahrradraum. Falls euch mal die Luft ausgeht, findet ihr hier auch eine Luftpumpe.
+            hash: Fahrradraum-2
+        
+        - type: information
+            headline: Aufzug
+            text: Ihr könnt die Tiefgarage über zwei Aufgänge mit Aufzügen verlassen. Dabei ist einer dieser Aufgänge extra für Kunden, welche ohne Badge bis zum Empfang fahren können.
+            hash: Aufzug-1
+    - nummer: 0
+      content:
+        - type: question
+            frage: Hole dir einen Sodexo Gutschein ab. Wie viel ist der Gegenwert in EUR?
+                allanswers:
+                - answer: 4 Euro
+                    trueanswer: False
+                - answer: 6 Euro
+                    trueanswer: True
+                - answer: 2.50 Euro
+                    trueanswer: False
+                - answer: 8 Euro
+                    trueanswer: False
+            hash: Sodexo-2
+        
+        - type: question
+            frage: Wie kommst du nach 18 Uhr aus dem Büro?
+                allanswers:
+                - answer: Gar nicht!
+                    trueanswer: False
+                - answer: Nur durch Hinterausgang
+                    trueanswer: False
+                - answer: kleinen schwarzen Knopf drücken
+                    trueanswer: True
+                - answer: Nur durch die Tiefgarage
+                    trueanswer: False
+            hash: AusgangNacht-2
+        
+        - type: question
+            frage: Wie kommst du nach 18 Uhr ins Büro?
+                allanswers:
+                - answer: Badge
+                    trueanswer: True
+                - answer: WDF 4 anrufen
+                    trueanswer: False
+                - answer: Wachmann mit Sodexo bestechen
+                    trueanswer: False
+                - answer: Irisscan
+                    trueanswer: False
+            hash: EingangNacht-1
+        
+        - type: information
+            headline: Empfang
+            text: Am Empfang könnt ihr euch für jeden Bürotag mit mindestens vier Stunden Anwesenheit (vormittags) einen Sodexo abholen. Diesen Essengutschein könnt ihr in zahlreichen Restaurants und Supermärkten einlösen. Offiziell darf nur einer pro Bestellung/Einkauf eingelöst werden und ausschließlich nur für Lebensmittel genutzt werden. Am Empfang werden außerdem Pakete und Inhousepost für euch abgebeben, ihr erhaltet dann eine E-Mail und könnt diese am Empfang abholen.
+            hash: Empfang-2
+        
+        - type: information
+            headline: Corona-Teststation
+            text: Seit der Corona-Pandemie könnt euch hier auch kostenlos auf Corona testen. 
+            hash: CoronaTest
+    - nummer: 1
+        content:
+        
+        - type: question
+            frage: Wie könnt ihr einen Raum buchen?
+                allanswers:
+                - answer: Touch-Terminals
+                    trueanswer: True
+                - answer: Outlook
+                    trueanswer: True
+                - answer: Ruum@SAP Tool
+                    trueanswer: False
+                - answer: Booking.com
+                    trueanswer: False
+            hash: RaumBuchen-1
+        
+        - type: question
+            frage: Wer hat den Raum "Stände Haus" gebucht?
+                allanswers:
+                - answer: Marius Eschenbacher
+                    trueanswer: False
+                - answer: Luca Köhler
+                    trueanswer: True
+                - answer: Yannik Bernahrd
+                    trueanswer: False
+                - answer: Lukas Pätz
+                    trueanswer: False
+            hash: GebuchterRaum-1
+        
+        - type: question
+            frage: Welche Raumnummer hat der Studentenpool?
+                allanswers:
+                - answer: B01.04
+                    trueanswer: False
+                - answer: B01.12
+                    trueanswer: True
+                - answer: B01.02
+                    trueanswer: False
+                - answer: A01.12
+                    trueanswer: False
+            hash: RaumStudentenpool-1
+        
+        - type: question
+            frage: Wie viele Schlüssel für den Studentenpool hat jeder Jahrgang? 
+                allanswers:
+                - answer: 2
+                    trueanswer: True
+                - answer: 4
+                    trueanswer: False
+                - answer: 6
+                    trueanswer: False
+                - answer: 8
+                    trueanswer: False
+            hash: StudentenpoolSchlüssel-1
+        
+        - type: question
+            frage: Wo bekommt ihr den Schlüssel für den Nextgenroom?
+                allanswers:
+                - answer: Liegt im Studentenpool
+                    trueanswer: False
+                - answer: am Empfang
+                    trueanswer: True
+                - answer: bei Marius Eschenbacher - Innovationsbeauftragter
+                    trueanswer: False
+                - answer: Nur Kunden bekommen einen Schlüssel
+                    trueanswer: False
+            hash: StudentenpoolSchlüssel-1
+        
+        - type: information
+            headline: RäumeBuchen
+            text: Bei Bedarf könnt ihr mit Outlook oder direkt vor den Räumen über die Touch Terminals einen Meetingraum buchen. 
+            hash: RaumBuchen-134
+        
+        - type: information
+            headline: Die 1. Etage
+            text: Die erste Etage ist im Allgemeinen für Präsenz Meetings und Kundentermine gedacht, was durch die vielen Meetingräume und die schöneren Kaffeetassen erkennbar ist. Außerdem findet ihr hier den Studentenpool und den Nextgenroom, welchem ihr mit einem speziellen Schlüssel öffnen könnt.
+            hash: Etage1-Info
+        
+        - type: information
+            headline: Studentenpool
+            text: In der ersten Etage findet ihr auch den "Studentenpool", das ist der Aufenthaltsraum für Studenten und Auszubildende. Neben großen Bildschirmen und höhenverstellbaren Schreibtischen findet ihr hier auch eine PS4 und einen Fernseher. Pro Jahrgang gibt es zwei Studenten, die je einen Schlüssel für den Studentenpool haben.  
+            hash: StudentenpoolInformation
+        
+    - nummer: 2
+        content:
+        - type: question
+            frage: Welche Raumnummer hat Renés Büro?
+                allanswers:
+                - answer: A2.10
+                    trueanswer: True
+                - answer: A1.10
+                    trueanswer: False
+                - answer: A2.20
+                    trueanswer: False
+                - answer: A1.87
+                    trueanswer: False
+            hash: RaumnummerRene-1
+        
+        - type: question
+            frage: Von welcher Firma wird der IT-Support gewährleistet? Hinweis: Der Raum ist in der Nähe eines Fahrstuhls.
+                allanswers:
+                - answer: SAP SE
+                    trueanswer: False
+                - answer: Bechtle AG
+                    trueanswer: True
+                - answer: IT-Link Center
+                    trueanswer: False
+                - answer: Bernhard AG
+                    trueanswer: False
+            hash: Support-1
+        
+        - type: question
+            frage: Welcher Gegenstand ist im Fenster vom D-Shop sichtbar?
+                allanswers:
+                - answer: 3D-Drucker
+                    trueanswer: True
+                - answer: Schmuddel Magazine
+                    trueanswer: False
+                - answer: Mining Rig
+                    trueanswer: False
+                - answer: 360 Grad Kamera
+                    trueanswer: False
+            hash: D-Shop-Quest
+        
+        - type: question
+            frage: Welche Geräte gibt es in der Küche?
+                allanswers:
+                - answer: Mikrowelle
+                    trueanswer: True
+                - answer: Kühlschrank
+                    trueanswer: True
+                - answer: Backofen
+                    trueanswer: False
+                - answer: Dampfgarer
+                    trueanswer: False
+            hash: Kueche-Frage1
+        
+        - type: question
+            frage: Welchen Spieleautomaten gibt es im Büro?
+                allanswers:
+                - answer: PS4
+                    trueanswer: True
+                - answer: Slot-Maschine
+                    trueanswer: False
+                - answer: Tischkicker
+                    trueanswer: True
+                - answer: XBox One
+                    trueanswer: False
+            hash: Spielautomat-1
+        
+        - type: question
+            frage: Welche "Spezial Räume" gibt es im Büro? 
+                allanswers:
+                - answer: Raucherraum
+                    trueanswer: False
+                - answer: Duschraum
+                    trueanswer: True
+                - answer: Fitnessraum
+                    trueanswer: False
+                - answer: Yogaraum
+                    trueanswer: True
+            hash: KomischeRaeume-1
+        
+        - type: information
+            headline: Renes Büro
+            text: Euer vermutlich wichtigster Anlaufpunkt in der zweiten Etage ist das Büro des Ausbildungsleiters. René teilt seine Bürozeiten regelmäßig auf Teams mit, dort veröffentlicht er auch seine Urlaubszeiten oder akute Änderungen (z.B. aufgrund von Krankheit).
+            hash: BueroRene-Info213
+        
+        - type: information
+            headline: Die 2. Etage
+            text:  In der 2. Etage findet ihr hauptächlich, Büroräume und zahlreiche Schreibtische. Trotzdem gibt es hier noch ein paar Besonderheiten, wie den Yogaraum zum Entspannen, eine Küche und den Duschraum. Auch das Studentenprojekt "D-Shop" hat hier einen Raum.
+            hash: Etage2Infos22
+        
+        - type: information
+            headline: IT-Support
+            text:  Das ist der Raum vom IT-Support, an welchem ihr euch wenden könnt, falls ihr Probleme mit eurem Laptop oder anderer Hardware haben solltet.
+            hash: IT-SupportInfo23
+    - nummer: 3
+        content:
+        
+        - type: question
+            frage:  Wie rechnet ihr die Kosten für den Kaffee ab?
+                allanswers:
+                - answer: Am Empfang
+                    trueanswer: False
+                - answer: FioriApp "Skip Coffee"
+                    trueanswer: False
+                - answer: Wird pauschal berechnet
+                    trueanswer: False
+                - answer: Gar nicht
+                    trueanswer: True
+            hash: KaffeQuestion-1
+        
+        - type: question
+            frage: Wie könnt ihr euch im Drucker einloggen? 
+                allanswers:
+                - answer: Badge
+                    trueanswer: True
+                - answer: Fingerabdruck
+                    trueanswer: False
+                - answer: ThinkPad mit LAN-Kabel
+                    trueanswer: False
+                - answer: I-User und Passwort
+                    trueanswer: True
+            hash: DruckerQuestion-324
+        
+        - type: information
+            headline: Drucker
+            text: Im ganzen Büro findet ihr viele Druckerräume, diese sind mit modernen Druckern ausgestattet. Zu druckende Dokumente könnt ihr von überall in die Warteschlange hinzufügen, dort verbleiben sie 24 Stunden lang. Wenn ihr innerhalb dieser Zeit zu den Druckern geht und euch entweder mit eurem Badge oder eurem I-User und dem dazugehörigen Passwort anmeldet, könnt ihr alle Dokumente ausdrucken. Aus Sicherheitsgründen findet ihr dort auch spezielle Mülltonnen, womit wichtige Dokumente gesichert entsorgt werden können. Druckt nun mit der Karte eurer Begleitung ein Dokument aus.
+            hash: Drucker-Info
+        
+        - type: information
+            headline: Die 3. Etage
+            text:  Im Allgemeinen unterscheiden sich die oberen vier Etagen (2-5) nicht sonderlich voneinander. Auffällig ist aber, dass sich bestimmte Elemente wie Balkone, Kaffeeecken und Druckerräumen konstant in jeder Etage wiederholen.
+            hash: Die3Etage-Info
+    - nummer: 4
+        content:
+        
+        - type: question
+            frage: Welche Dinge könnt ihr ab der 2. Etage in jeder Etage des Gebäudes finden? 
+                allanswers:
+                - answer: Kaffeecken
+                    trueanswer: True
+                - answer: Druckerräume
+                    trueanswer: True
+                - answer: Küche
+                    trueanswer: False
+                - answer: Notrufsäule
+                    trueanswer: True
+            hash: QuestionWasAuf3214
+        
+        - type: question
+            frage: In welches W-Lan könnt ihr euch mit dem Handy einloggen?
+                allanswers:
+                - answer: SAP-Corporate
+                    trueanswer: False
+                - answer: SAP-Guest
+                    trueanswer: True
+                - answer: SAP-Internet
+                    trueanswer: False
+                - answer: SAP-Employee
+                    trueanswer: False
+            hash: WLANWelchesHandy
+        
+        - type: question
+            frage: Woran erkennt ihr die Notrufsäulen?
+                allanswers:
+                - answer: Rote-Farbe
+                    trueanswer: True
+                - answer: Orangenes Licht
+                    trueanswer: False
+                - answer: Gruenes Telefon Symbol
+                    trueanswer: True
+                - answer: Weißes Telefon
+                    trueanswer: True
+            hash: NotrufsaeuleInfo34
+        
+        - type: information
+            headline: Notrufsäule
+            text: Sollte ein Notfall eintreten und beispielsweise die Feuerwehr gerufen werden muss, solltet ihr dies, wenn möglich, über die Notrufsäulen machen, da sie dann automatisch schneller ins Gebäude kommen. Unabhängig davon sind im Gebäude mehrere Zettel verteilt mit Kontaktdaten von Mitarbeitern die erste Hilfe leisten können.
+            hash: NotrufInfo213
+        
+        - type: information
+            headline: SharedDesks
+            text: Mittlerweile gibt es sehr viele Shared Desks, jegliche Tische mit roten Punkten sind keine Shared Desks. Wichtig ist wie immer aber immer die gegenseitige Rücksichtnahme! Deshalb verlasst die Tische auch immer so, wie ihr sie vorgefunden habt!
+            hash: SharedDesk341
+    - nummer: 5
+        content:
+        - type: question
+            frage: Warum sind die Kaffeemaschinen der 5. Etage dauerhaft an? Tipp: Fragt einen Mitarbeiter. 
+                allanswers:
+                - answer: Weil der BIO Premium Support auch Nachschichten arbeitet
+                    trueanswer: True
+                - answer: Weil der Kaffee am Besten ist
+                    trueanswer: False
+                - answer: Historisch gewachsen
+                    trueanswer: False
+                - answer: Wegen des Ausblicks
+                    trueanswer: False
+            hash: Kaffee5Etage
+        
+        - type: question
+            frage: Auf welches historische Gebäude schaut ihr, wenn ihr in der Kaffeeecke entspannt?
+                allanswers:
+                - answer: Altmarkt Galerie
+                    trueanswer: False
+                - answer: World Trade Center
+                    trueanswer: False
+                - answer: Zwinger
+                    trueanswer: False
+                - answer: Pirnaischer Platz
+                    trueanswer: False
+            hash: GebaeudeAussciht22
+        
+        - type: information
+            headline: Die 5. Etage
+            text: In der 5. Etage hat man die beste Aussicht über die Dresdner Altstadt und den Zwinger. Außerdem befindet sich hier der BIO-Premium Support, deshalb haben hier auch die Azubis ihren Arbeitsplatz.
+            hash: Etage5Info3432
